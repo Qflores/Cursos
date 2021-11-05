@@ -1,0 +1,97 @@
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-block {
+    @apply block text-center w-full;
+}
+
+.btn-primary {
+    @apply bg-blue-500 text-white;
+}
+.btn-primary:hover {
+    @apply bg-blue-700;
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white;
+}
+
+.btn-danger:hover {
+    @apply bg-red-500;
+}
+
+.text-shadow-white {
+    color: #000000;
+    text-shadow: 0 4px 8px rgba(255, 255, 255, 0.9),
+        0 2px 4px rgba(255, 255, 255, 0.9), 0 2px 4px rgba(255, 255, 255, 0.9);
+}
+
+.text-shadow-black {
+    color: #ffffff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 2px 4px rgba(0, 0, 0, 0.9),
+        0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.shadon-green {
+    -webkit-box-shadow: -2px 4px 6px 2px #0dec3d;
+    -moz-box-shadow: -2px 4px 6px 2px #21eb4da4;
+    box-shadow: -2px 4px 6px 2px #0ef24f;
+}
+
+.shadon-green-legth {
+    -webkit-box-shadow: -2px 4px 53px -13px #0dec3d;
+    -moz-box-shadow: -2px 4px 53px -13px #21eb4da4;
+    box-shadow: -2px 4px 53px -13px #0ef24f;
+}
+
+.shadon-pink {
+    -webkit-box-shadow: -2px 4px 6px 2px #f821ca;
+    -moz-box-shadow: -2px 4px 6px 2px #d004a3;
+    box-shadow: -2px 4px 6px 2px #f821ca, -2px 4px 10px 6px #5f034b;
+}
+
+.shadon-black {
+    -webkit-box-shadow: -2px 4px 6px 2px #141214;
+    -moz-box-shadow: -2px 4px 6px 2px #2c2b2c;
+    box-shadow: -2px 4px 6px 2px #0e0d0d, -2px 4px 10px 6px #292929;
+}
+
+.shadon-blue {
+    -webkit-box-shadow: -2px 4px 6px 2px #2177e5 #141214;
+    -moz-box-shadow: -2px 4px 6px 2px #2177e5 #2c2b2c;
+    box-shadow: -2px 4px 6px 2px #2177e5, -2px 4px 10px 6px #80c3f3;
+}
+
+.backgroun-blue {
+    -webkit-background-color: #00cff4;
+    -moz-background-color: #00cff4;
+    background-color: #00cff4;
+}
+
+.position-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 15000;
+    background: #ebebeb;
+}
+
+.background-card {
+    background: #262f4c;
+    color: #ffffff;
+}
+
+.colortext-profesor {
+    color: #00cff4;
+}
+
+.text-button-black {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.shadon-blue-course {
+    -webkit-box-shadow: 0px 3px 14px 2px #494a49;
+    -moz-box-shadow: 0px 3px 14px 2px #494a49;
+    box-shadow: 0px 3px 14px 2px #494a49;
+}
